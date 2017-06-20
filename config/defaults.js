@@ -4,7 +4,7 @@ define([], function() {
     //and url parameters.
     var defaults = {
         "appid": "",
-        "webmap": "55f15224d4da4b4e98504a4ff3a69119", 
+        "webmap": "4055f4a5d1834fd597986d3cc9c9b2f1", 
         "oauthappid": null, //"AFTKRmv16wj14N3z",
         //Group templates must support a group url parameter. This will contain the id of the group. 
         //group: "",
@@ -12,20 +12,20 @@ define([], function() {
         //http://developers.arcgis.com/en/javascript/jshelp/ags_proxy.html
         "proxyurl": "",
         //UI specific parameters
-        "title": "Summary Viewer",
+        "title": "WNC Fires 2016",
         "logo": "",
-        "color": "#80ab00",
+        "color": "#5091B2",
         //Counter specific parameters
         "summaryLayer":{
             "id": "",
             "fields":[
                 {
                     "id": "filterField",
-                    "fields": [""]
+                    "fields": ["incidentna"]
                 },
                 {
                     "id": "sumFields",
-                    "fields": []
+                    "fields": ["acres"]
                 },
                 {
                     "id": "avgFields",
