@@ -331,12 +331,12 @@ define([
                this.config[field.id] = field.fields;
             }));
          }
-         var aliases = ["COUNT"];
+         var aliases = ["Total Fires"];
          var i = 0;
          var sumType = "";
          if (str.length > 0) {
             if (this.config.sumFields && this.config.sumFields.length > 0) {
-               sumType = "SUM: ";
+               sumType = "Total Acres Burned: ";
                if (this.config.hideSummaryType)
                   sumType = "";
                sumFields = this.config.sumFields;
