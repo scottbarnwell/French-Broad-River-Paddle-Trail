@@ -12,7 +12,7 @@ define([], function() {
         //http://developers.arcgis.com/en/javascript/jshelp/ags_proxy.html
         "proxyurl": "",
         //UI specific parameters
-        "title": "WNC Fires 2016",
+        "title": "French Broad Paddle Trail",
         "logo": "",
         "color": "#5091B2",
         //Counter specific parameters
